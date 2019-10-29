@@ -40,7 +40,7 @@ input {
 button {
     cursor: pointer;
     padding: 12px;
-    background: #7C5CBF;
+    background: #32CD32;
     border: none;
     color: white;
     font-size: 16px;
@@ -48,18 +48,18 @@ button {
 }
 
 button:hover {
-    background: #6b47b8;
+    background: #32CD32;
 }
 
 button:disabled {
     cursor: default;
-    background: #7c5cbf94;
+    background: #43DE43;
 }
 
 /* Join Page Styles */
 
 .centered-form {
-    background: #333744;
+    background: #CC5500;
     width: 100vw;
     height: 100vh;   
     display: flex;
@@ -92,8 +92,8 @@ button:disabled {
 .chat__sidebar {
     height: 100vh;
     color: white;
-    background: #333744;
-    width: 225px;
+    background: #CC5500;
+    width: 225px !important;
     overflow-y: scroll
 }
 
@@ -130,7 +130,7 @@ button:disabled {
 }
 
 .message a {
-    color: #0070CC;
+    color: #32CD32;
 }
 
 /* Message Composition Styles */
@@ -165,7 +165,7 @@ button:disabled {
 .room-title {
     font-weight: 400;
     font-size: 22px;
-    background: #2c2f3a;
+    background: rgba(0,0,0,.1);
     padding: 24px;   
 }
 
