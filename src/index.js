@@ -42,7 +42,8 @@ io.on('connection', (socket) => {
         const filter = new Filter()
 
         if (filter.isProfane(message)) {
-            return callback('No profanity allowed!')
+            //return callback('No profanity allowed!')
+            message = filter.clean(message)
         }
 
         io.to(user.room).emit('message', generateMessage(user.displayname, message))
